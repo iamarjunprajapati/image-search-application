@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image serach app</title>
+</head>
+
+<body>
+    <div class="body-container w-full bg-[rgb(249,248,248)] min-h-[100vh] py-6 flex flex-col justify-center items-center">
+        <h1 class="mb-7 text-4xl font-semibold">Image Search App</h1>
+        <div class="button-container ">
+            <input type="text" class="py-2 shadow-lg rounded px-3 box-border" placeholder="search images...">
+            <button class="hover:bg-[green] bg-[rgb(0,170,0)] w-[100px] text-white py-2 ml-3 rounded"
+                onclick="getImages()"> Search
+            </button>
+        </div>
+        <div class="img-container flex w-full gap-5 px-2 flex-wrap mt-10">
+        </div>
+    </div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
